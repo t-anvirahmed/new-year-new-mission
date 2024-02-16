@@ -1,0 +1,11 @@
+/* default styles */
+*{
+    font-family: "Lato", sans-serif;
+}
+
+/* header section styles */
+.banner-image{
+    background-image: url('../images/Banner\ Image.png');
+    width: 1320px;
+    height: 600px;
+}
