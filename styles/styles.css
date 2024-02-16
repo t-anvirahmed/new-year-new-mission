@@ -329,3 +329,55 @@
     right: 70%;
     top: 20%;
 }
+
+    /* Best gifts section */
+.best-gifts{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.best-gifts h4{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.best-gifts h1{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.best-gifts h5{
+    color: rgba(7, 2, 17, 0.60);
+    width: 896px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 22px;
+}
+
+.gift-images{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+    row-gap: 24px;
+    width: 1320px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mark:hover{
+    border: 3px solid tomato;
+    border-radius: 20px;
+    box-shadow: 2px 2px 6px red;
+}
