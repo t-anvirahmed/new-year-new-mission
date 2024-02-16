@@ -79,7 +79,6 @@
     background-repeat: no-repeat;
     width: 1320px;
     display: flex;
-    flex-direction: row;
     margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
@@ -184,8 +183,7 @@
 }
 
 .incidents{
-    display: flex;
-    flex-direction: row;
+    display: flex;    
     justify-content: space-around;
     width: 1320px;
     margin-left: auto;
@@ -310,7 +308,6 @@
 
 .additional-images {
     display: flex;
-    flex-direction: row;
 }
 
 .left-image {
@@ -380,4 +377,161 @@
     border: 3px solid tomato;
     border-radius: 20px;
     box-shadow: 2px 2px 6px red;
+}
+
+    /* Newsletter section */
+.subscribe{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 0, 0, 0.05);
+    border-radius: 16px;
+    width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subscribe img{
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 80px 0px 40px 0px;
+}
+
+.subscribe h1{
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.subscribe h5{
+    color: rgba(7, 2, 17, 0.60);
+    width: 896px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.information{
+    margin-top: 48px;
+    margin-bottom: 80px;
+    display: flex;
+    width: 648px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.information input{
+    width: 648px;
+    border-radius: 0px;
+    background: #fff;
+    padding: 25px;
+    border-radius: 50px 0px 0px 50px;
+    border: none;
+    color: rgba(7, 2, 17, 0.30);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.submit{
+    color: #FFF;
+    background-color: #F00;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    width: 210px;
+    height: 72px;
+    padding: 26px 6px;
+}
+
+/* Footer section */
+.footer-background{
+    background-color: #070211;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+
+.address {
+    padding-left: 140px;
+    padding-top: 120px;
+    width: 375px;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.contact-number {
+    padding-top: 120px;
+    padding-right: 290px;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+}
+    
+.website-link {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.number {
+    padding-top: 0px;
+    margin-bottom: 10px;
+}
+
+.icon{
+    padding-right: 15px;
+    padding-top: 20px;
+}
+
+hr{
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    margin: 50px 130px;
+}
+
+.socialmedia-icons {
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.social-platforms {
+    margin-right: 24px;
+}
+.security {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 120px;
+}
+
+.rights-reserved, .unsubscribe {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.rights-reserved {
+    padding-left: 140px;
+}
+
+.unsubscribe {
+    padding-right: 140px;
 }
