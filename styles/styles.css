@@ -457,13 +457,13 @@
     background-color: #070211;
 }
 
-.contact-info {
+.contact-info{
     display: flex;
     justify-content: space-between;
     margin-top: 120px;
 }
 
-.address {
+.address{
     padding-left: 140px;
     padding-top: 120px;
     width: 375px;
@@ -472,7 +472,7 @@
     font-weight: 500;
 }
 
-.contact-number {
+.contact{
     padding-top: 120px;
     padding-right: 290px;
     color: #FFF;
@@ -481,17 +481,11 @@
     display: flex;
     flex-direction: column;
 }
-    
-.website-link {
-    text-decoration: none;
-    color: #FFF;
-    font-size: 24px;
-    font-weight: 500;
-}
 
-.number {
-    padding-top: 0px;
-    margin-bottom: 10px;
+.contact-number, .contact-url {
+    padding-top: 0;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 .icon{
@@ -504,23 +498,23 @@ hr{
     margin: 50px 130px;
 }
 
-.socialmedia-icons {
+.socialmedia-icons{
     display: flex;
     justify-content: center;
     padding-top: 0px;
     padding-bottom: 0px;
 }
 
-.social-platforms {
+.social-platforms{
     margin-right: 24px;
 }
-.security {
+.security{
     display: flex;
     justify-content: space-between;
     padding-bottom: 120px;
 }
 
-.rights-reserved, .unsubscribe {
+.rights-reserved, .unsubscribe{
     margin-top: 0px;
     margin-bottom: 0px;
     color: #FFF;
@@ -528,10 +522,10 @@ hr{
     font-weight: 500;
 }
 
-.rights-reserved {
+.rights-reserved{
     padding-left: 140px;
 }
 
-.unsubscribe {
+.unsubscribe{
     padding-right: 140px;
 }
